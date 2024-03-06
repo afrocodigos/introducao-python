@@ -8,13 +8,3 @@
 
 Professor: [Felipe](lipemorais)
 Monitora: [Renata](repereira) 
-
-
-### Exercícios
-
-- [Exercício realizados em sala](/exercicios/aula/)
-- [Desafio semanal](/exercicios/desafio-semanal/)
-
-### Conteúdo da aula
-
-- [Conteúdo](/material)
