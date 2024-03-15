@@ -4,6 +4,6 @@
 
 # Aulas de Python
 
-Professor: [Felipe](lipemorais)
+Professor: [Felipe](https://github.com/lipemorais)
 
-Monitora: [Renata](repereira) 
+Monitora: [Renata](https://github.com/repereira) 
