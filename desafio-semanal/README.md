@@ -27,7 +27,7 @@ Certifique-se de seguir cada passo cuidadosamente para garantir que suas contrib
    - [ ] Navegue para o diretório do projeto usando o comando `cd nome-do-repositório` ou abra a pasta de forma visual.
 
 - [ ] **Inserir sua Resposta:**
-   - [ ] Dentro da pasta "desafio-semanal", localize o arquivo relacionado ao exercício atual.
+   - [ ] Dentro da pasta "exercicios", localize o arquivo relacionado ao exercício atual.
    - [ ] Edite o arquivo e insira sua resposta.
 
 - [ ] **Adicione as Mudanças:**
