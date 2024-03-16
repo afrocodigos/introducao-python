@@ -6,9 +6,11 @@
 # - Caso queira, converta a lista para um conjunto. Em seguida, converta o conjunto de volta para uma lista.
 # - Imprima a lista resultante.
 
-lista_entrada = [1,2,6,3,7,4,2,1,6,2]
+lista_entrada = ["melancia","morango","limão","melancia","limão"]
 
-lista_sem_duplicata = list(set(lista_entrada))
+lista_sem_duplicata_1 = list(set(lista_entrada))
 
-print(f"Lista original: {lista_entrada}")
-print(f"Lista removendo as duplicatas: {lista_sem_duplicata}")
+print(f"Lista original: {lista_entrada}\n")
+print("Método 1: Transformar a lista em set e depois retornar para uma lista")
+print("Nesse método, a lista resultante aparecerá com componentes ordenados em ordem crescente")
+print(f"Lista removendo as duplicatas transformando em set: {lista_sem_duplicata_1} \n")
