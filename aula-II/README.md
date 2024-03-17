@@ -2,7 +2,8 @@
   <img src="assets/image/logotipo-afrocodigos.png" alt="logotipo afrocodigos" width="500">
 </h1>
 
-# Aulas de Python
+# Aula II
 
-Professor: [Felipe](lipemorais)
-Monitora: [Renata](repereira) 
+Professor: [Felipe](https://github.com/lipemorais)
+
+Monitora: [Renata](https://github.com/repereira) 
