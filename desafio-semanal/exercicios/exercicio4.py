@@ -17,7 +17,6 @@ def remove_duplicata(lista_entrada):
 
   return lista_saida
 
-
 # Cria função que ordena lista (exercício 3)
 def ordena_lista(lista_entrada):
     lista_saida = sorted(lista_entrada, key=str.lower)
