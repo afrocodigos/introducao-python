@@ -1,4 +1,4 @@
-def loop_input()):
+def loop_input():
     print("Insira cada valor da lista e pressione enter. Quando terminar de inserir itens na lista, digite 'Sair'")
 
     lista_entrada_usuario = []
@@ -7,3 +7,5 @@ def loop_input()):
     while item_entrada != "Sair":
         lista_entrada_usuario.append(item_entrada)
         item_entrada = input("Insira a sua entrada: ")
+    
+    return lista_entrada_usuario
