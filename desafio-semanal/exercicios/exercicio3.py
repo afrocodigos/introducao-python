@@ -6,10 +6,12 @@
 # Importa a função que capta a lista de entrada do usuário
 from loop_func import loop_input
 
+
 # Cria função para ordenar a lista em ordem crescente
 def ordena_lista(lista_entrada):
     lista_saida = sorted(lista_entrada, key=str.lower)
     return lista_saida
+
 
 # Testa a função de ordenar em ordem alfabética
 lista_entrada_frutas = ["melancia","maçã","uva","banana",
