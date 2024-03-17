@@ -6,6 +6,7 @@
 # Importa a função que capta a lista de entrada do usuário
 from loop_func import loop_input
 
+
 # Cria função para calcular o preço total
 def calcula_preco_total(lista_precos):
     preco_total = 0
