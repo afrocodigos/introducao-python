@@ -1,19 +1,10 @@
+# AfroCódigos 2024
+# Autora: Alfa Marine
+
 # Escreva um programa que remova todas as duplicatas de uma lista e imprima a lista resultante.
 
-# Dicas que podem ser seguidas ou não: 
-# Remover duplicatas de uma lista:
-# - Você pode utilizar conjuntos (sets) para remover duplicatas, já que conjuntos não permitem elementos duplicados.
-# - Caso queira, converta a lista para um conjunto. Em seguida, converta o conjunto de volta para uma lista.
-# - Imprima a lista resultante.
-
-lista_entrada = ["melancia","morango","limão","melancia","limão"]
-
-lista_sem_duplicata_1 = list(set(lista_entrada))
-
-print(f"Lista original: {lista_entrada}\n")
-print("Método 1: Transformar a lista em set e depois retornar para uma lista")
-print("Nesse método, a lista resultante aparecerá com componentes ordenados em ordem crescente")
-print(f"Lista removendo as duplicatas transformando em set: {lista_sem_duplicata_1} \n")
+# Importa a função que capta a lista de entrada do usuário
+from loop_func import loop_input
 
 # Serão criados duas funções para a remoção de duplicatas
 # Função 1
@@ -33,3 +24,38 @@ def remove_duplicata_2(lista_entrada):
 
   return lista_saida
 
+
+# Testando as funções
+lista_entrada_numeros = [1,6,3,5,4,2,5,1,4,5]
+lista_entrada_frutas = ["melancia","maçã","uva","melancia",
+                        "banana","morango","banana","uva",
+                        "melancia","maçã","limão","abacaxi"]
+lista_entrada_usuario = loop_input()
+
+print()
+print("Método 1: Transforma a lista em set e depois retorna para uma lista")
+print("Método 2: Copia o valor de um item da lista para a lista de saída caso o valor do item não tiver sido inserido antes")
+
+lista_saida_frutas_1 = remove_duplicata_1(lista_entrada_frutas)
+lista_saida_frutas_2 = remove_duplicata_2(lista_entrada_frutas)
+
+print()
+print(f"Lista de frutas original: {lista_entrada_frutas}")
+print(f"Lista removendo as duplicatas com o método 1: {lista_saida_frutas_1}")
+print(f"Lista removendo as duplicatas com o método 2: {lista_saida_frutas_2}")
+
+lista_saida_numeros_1 = remove_duplicata_1(lista_entrada_numeros)
+lista_saida_numeros_2 = remove_duplicata_2(lista_entrada_numeros)
+
+print()
+print(f"Lista de números original: {lista_entrada_numeros}")
+print(f"Lista removendo as duplicatas com o método 1: {lista_saida_numeros_1}")
+print(f"Lista removendo as duplicatas com o método 2: {lista_saida_numeros_2}")
+
+lista_saida_usuario_1 = remove_duplicata_1(lista_entrada_usuario)
+lista_saida_usuario_2 = remove_duplicata_2(lista_entrada_usuario)
+
+print()
+print(f"Lista do usuário original: {lista_entrada_usuario}")
+print(f"Lista removendo as duplicatas com o método 1: {lista_saida_usuario_1}")
+print(f"Lista removendo as duplicatas com o método 2: {lista_saida_usuario_2}")
