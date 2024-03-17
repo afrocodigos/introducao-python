@@ -6,6 +6,7 @@
 # Importa a função que capta a lista de entrada do usuário
 from loop_func import loop_input
 
+
 # Serão criados duas funções para a remoção de duplicatas
 # Função 1
 def remove_duplicata_1(lista_entrada):
