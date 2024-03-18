@@ -46,10 +46,10 @@ Certifique-se de seguir cada passo cuidadosamente para garantir que suas contrib
 
   - [x] Envie os commits para sua branch usando o comando `git push origin nome-da-sua-branch`.
 
-- [ ] **Crie um Pull Request:**
-  - [ ] Acesse o repositório original, não o seu fork.
-  - [ ] Na página do repositório original, clique na aba "Pull Requests".
-  - [ ] Clique no botão verde "New Pull Request".
-  - [ ] Selecione sua branch como base para a comparação.
-  - [ ] Adicione uma descrição detalhada das alterações que você fez.
-  - [ ] Clique em "Create Pull Request" para enviar sua solicitação de pull.
+- [x] **Crie um Pull Request:**
+  - [x] Acesse o repositório original, não o seu fork.
+  - [x] Na página do repositório original, clique na aba "Pull Requests".
+  - [x] Clique no botão verde "New Pull Request".
+  - [x] Selecione sua branch como base para a comparação.
+  - [x] Adicione uma descrição detalhada das alterações que você fez.
+  - [x] Clique em "Create Pull Request" para enviar sua solicitação de pull.
