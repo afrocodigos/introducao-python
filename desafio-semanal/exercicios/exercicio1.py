@@ -31,6 +31,7 @@ lista_entrada_numeros = [1,6,3,5,4,2,5,1,4,5]
 lista_entrada_frutas = ["melancia","maçã","uva","melancia",
                         "banana","morango","banana","uva",
                         "melancia","maçã","limão","abacaxi"]
+print("Por favor, insira sua lista")
 lista_entrada_usuario = loop_input()
 
 print()

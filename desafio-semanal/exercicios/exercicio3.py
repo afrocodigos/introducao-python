@@ -16,11 +16,13 @@ def ordena_lista(lista_entrada):
 # Testa a função de ordenar em ordem alfabética
 lista_entrada_frutas = ["melancia","maçã","uva","banana",
                         "morango","limão","abacaxi"]
+print("Por favor, insira sua lista de frutas")
 lista_entrada_usuario = loop_input()
 
 lista_ordenada_frutas = ordena_lista(lista_entrada_frutas)
 lista_ordenada_usuario = ordena_lista(lista_entrada_usuario)
 
+print()
 print(f"Lista de frutas original: {lista_entrada_frutas}")
 print(f"Lista de frutas ordenada: {lista_ordenada_frutas}")
 print()

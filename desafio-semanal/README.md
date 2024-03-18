@@ -28,23 +28,23 @@ Certifique-se de seguir cada passo cuidadosamente para garantir que suas contrib
 
   - [x] Navegue para o diretório do projeto usando o comando `cd nome-do-repositório` ou abra a pasta de forma visual.
 
-- [ ] **Inserir sua Resposta:**
+- [x] **Inserir sua Resposta:**
 
-  - [ ] Dentro da pasta "exercicios", localize o arquivo relacionado ao exercício atual.
-  - [ ] Edite o arquivo e insira sua resposta.
+  - [x] Dentro da pasta "exercicios", localize o arquivo relacionado ao exercício atual.
+  - [x] Edite o arquivo e insira sua resposta.
 
-- [ ] **Adicione as Mudanças:**
+- [x] **Adicione as Mudanças:**
 
-  - [ ] Para adicionar todas as alterações, execute o comando `git add .`
-  - [ ] Se preferir adicionar apenas um arquivo específico, use `git add nome_do_arquivo.py`.
+  - [x] Para adicionar todas as alterações, execute o comando `git add .`
+  - [x] Se preferir adicionar apenas um arquivo específico, use `git add nome_do_arquivo.py`.
 
-- [ ] **Commit das Mudanças:**
+- [x] **Commit das Mudanças:**
 
-  - [ ] Commit cada mudança ou na finalização do exercício utilizando o comando `git commit -m "Mensagem do commit"`.
+  - [x] Commit cada mudança ou na finalização do exercício utilizando o comando `git commit -m "Mensagem do commit"`.
 
-- [ ] **Envie as Alterações para o GitHub:**
+- [x] **Envie as Alterações para o GitHub:**
 
-  - [ ] Envie os commits para sua branch usando o comando `git push origin nome-da-sua-branch`.
+  - [x] Envie os commits para sua branch usando o comando `git push origin nome-da-sua-branch`.
 
 - [ ] **Crie um Pull Request:**
   - [ ] Acesse o repositório original, não o seu fork.

@@ -13,5 +13,5 @@ precos_total_original = float(input("Insira o preço original: R$ "))
 desconto = int(input("Insira o valor de desconto(%): "))
 preco_total_desconto = calcula_preco_desconto(precos_total_original,desconto)
 
-print(f"Preço total original: R$ {precos_total_original}")
+print()
 print(f"Preço total após o desconto de {desconto}%: R$ {preco_total_desconto}")
