@@ -15,6 +15,7 @@ def Menu():
 
         print(f"O preço do produto com desconto é: R${preco_final:.2f}")
 
+        # Inserindo lógica simples para que o usuário possa fazer um novo cálculo.
         continuar = input("Deseja calcular o desconto de outro produto? (s/n) ")
         if continuar.lower() != 's':
             break

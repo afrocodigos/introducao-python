@@ -9,6 +9,9 @@ lista_frutas = ["Morango", "Abacaxi", "Uva", "Mamão", "Banana", "Maçã", "Pêr
 
 def contador(lista):
     dic_repetido = {}
+
+    # Implementação de lógica parecida no exercício 1.
+    # Quando o valor não se encontra no dicionario ele é inserido, caso contrário o contador conta +1.
     for i in lista:
         if i not in dic_repetido:
             dic_repetido[i] = 1

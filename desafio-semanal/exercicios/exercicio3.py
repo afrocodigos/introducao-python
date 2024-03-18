@@ -8,9 +8,9 @@
 # Método utilizado para modificar a lista original e não precisar da lista original.)
 lista_frutas = ["Morango", "Abacaxi", "Uva", "Mamão", "Banana", "Maçã", "Pêra"]
 
-lista_frutas.sort()
+lista_frutas.sort(key=str.lower)
 
-print("Sort", lista_frutas)
+print("Sort: ", lista_frutas)
 
 ## Sorted()
 # Use sorted() quando precisar manter a lista original inalterada ou quando estiver trabalhando 
@@ -22,15 +22,13 @@ lista_frutas_ordenada = sorted(lista_frutas_2)
 
 print("Sorted: ", lista_frutas_ordenada)
 
-## Bubble Sort
+## Bubble Sort (Algoritmo de ordenação)
 
-# Comece no início da lista: Compare os dois primeiros elementos (elemento 0 e elemento 1).
-
-# Compare e troque (se necessário): Se o primeiro elemento for maior que o segundo (considerando a ordenação ascendente), troque-os de lugar.
-
-# Mova para os próximos elementos: Repita o processo de comparação e troca para cada par de elementos adjacentes na lista, do início ao fim. Isso completa uma "passagem" pela lista.
-
-# Repita até ordenado: Ao final de cada passagem, o maior elemento "borbulha" até o final da lista, assumindo sua posição correta. Repita as passagens pela lista, excluindo o final de cada vez, pois os maiores elementos já estarão em suas posições corretas. Continue até que uma passagem completa seja feita sem nenhuma troca, indicando que a lista está ordenada.
+# 1. Comece no início da lista.
+# 2. Compare os dois primeiros elementos.
+# 3. Se o primeiro elemento for maior que o segundo, troque-os de lugar.
+# 4. Mova para os próximos elementos, do início ao fim.
+# 5. Continue até que uma passagem completa seja feita sem nenhuma troca, indicando que a lista está ordenada.
 
 lista_frutas_3 = ["Morango", "Abacaxi", "Uva", "Mamão", "Banana", "Maçã", "Pêra"]
 
