@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <h1 align="center">
   <img src="assets/image/logotipo-afrocodigos.png" alt="logotipo afrocodigos" width="500">
 </h1>
@@ -9,6 +9,19 @@ Professor: [Felipe](https://github.com/lipemorais)
 
 Monitora: [Renata](https://github.com/repereira) 
 =======
-# python
-Aulas de Python 2024
->>>>>>> 5e8ace7 (Initial commit)
+<br>
+
+# Aulas de Python
+
+Professor: [Felipe](lipemorais)
+Monitora: [Renata](repereira) 
+
+
+### Exercícios
+
+- [Exercício realizados em sala](/exercicios/aula/)
+- [Desafio semanal](/exercicios/desafio-semanal/)
+
+### Conteúdo da aula
+
+- [Conteúdo](/material)
