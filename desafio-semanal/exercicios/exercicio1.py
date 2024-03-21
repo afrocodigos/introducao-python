@@ -5,3 +5,9 @@
 # - Você pode utilizar conjuntos (sets) para remover duplicatas, já que conjuntos não permitem elementos duplicados.
 # - Caso queira, converta a lista para um conjunto. Em seguida, converta o conjunto de volta para uma lista.
 # - Imprima a lista resultante.
+
+#Resposta
+
+lista = ["banana", "maça", "manga", "manga", "banana"]
+not_duplicates = list (dict.fromkeys(lista))
+print(not_duplicates)
