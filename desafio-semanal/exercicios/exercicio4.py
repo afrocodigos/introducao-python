@@ -1,6 +1,25 @@
 # Crie um programa que conte quantas vezes cada tipo de fruta aparece em uma lista.
 
-# Dicas que podem ser seguidas ou não: 
-# - Utilize um dicionário para armazenar o número de ocorrências de cada fruta.
-# - Passe pela lista e incremente o valor do dicionário para cada fruta encontrada.
-# - No final, imprima o dicionário.
+from collections import Counter
+
+def contar_frutas(lista_frutas):
+    return Counter(lista_frutas)
+
+def cria_frutas():
+    lista_de_frutas = []
+
+    while True:
+        fruta = input("Digite o nome de uma fruta ou sair para terminar: ").strip().lower()
+
+        if fruta.lower() == 'sair':
+            break
+        lista_de_frutas.append(fruta)
+
+    return lista_de_frutas
+
+lista_de_frutas = cria_frutas()
+contagem = contar_frutas(lista_de_frutas)
+
+print("Contagem das frutas:")
+for fruta, quantidade in contagem.items():
+    print(f"{fruta}: {quantidade}")
