@@ -4,8 +4,20 @@
 # - Use o método sort() para ordenar a lista em ordem alfabética.
 # - Certifique-se de usar o argumento key=str.lower para que a ordenação seja case-insensitive.
 
-frutas = ["banana", "melancia", "maracuja", "abacaxi", "caju", "jabuticaba"]
+def cria_lista():
+    lista_de_frutas = [] 
+    
+    while True:
+        fruta = input("Digite o nome de uma fruta, ou sair para terminar o programa: ").strip().lower()
+        
+        if fruta.lower() == 'sair':
+            break
+        
+        lista_de_frutas.append(fruta)
+        lista_de_frutas.sort()
+    
+    return lista_de_frutas
 
-frutas.sort()
+frutas = cria_lista()
 
-print(frutas)
+print("A lista de frutas é:", frutas)
