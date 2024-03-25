@@ -1,4 +1,4 @@
-# Crie um programa que calcule o preço final de um produto após aplicar um desconto percentual fornecido pelo usuário.
+#Crie um programa que calcule o preço final de um produto após aplicar um desconto percentual fornecido pelo usuário.
 
 # Dicas que podem ser seguidas ou não: 
 # - Solicite ao usuário o preço original do produto e o desconto percentual ou armazene esses valores sem o input.
@@ -10,12 +10,12 @@ def calcular_preco_final(preco_original, desconto_percentual):
     preco_final = preco_original - desconto
     return preco_final
 
-# Solicita ao usuário o preço original do produto e o desconto percentual
+#Solicita ao usuário o preço original do produto e o desconto percentual
 preco_original = float(input("Digite o preço original do produto: "))
 desconto_percentual = float(input("Digite o desconto percentual (%): "))
 
-# Calcula o preço final
+#Calcula o preço final
 preco_final = calcular_preco_final(preco_original, desconto_percentual)
 
-# Imprime o preço final
+#Imprime o preço final
 print(f"O preço do produto com o desconto de {desconto_percentual} % é: R${preco_final:.2f}")
