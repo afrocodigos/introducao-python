@@ -5,3 +5,4 @@
 # - Mantenha uma variável para armazenar o preço total.
 # - Adicione o preço de cada fruta ao preço total.
 # - Após inserir todos os preços, imprima o preço total.
+
