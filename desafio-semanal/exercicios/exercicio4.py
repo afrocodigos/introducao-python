@@ -1,4 +1,4 @@
-# Crie um programa que conte quantas vezes cada tipo de fruta aparece em uma lista.
+#Crie um programa que conte quantas vezes cada tipo de fruta aparece em uma lista.
 
 # Dicas que podem ser seguidas ou não: 
 # - Utilize um dicionário para armazenar o número de ocorrências de cada fruta.
