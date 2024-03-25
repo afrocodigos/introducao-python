@@ -5,3 +5,18 @@
 # - Mantenha uma variável para armazenar o preço total.
 # - Adicione o preço de cada fruta ao preço total.
 # - Após inserir todos os preços, imprima o preço total.
+
+
+frutas = []
+total = 0
+
+while True:
+  fruta = input("Digite o nome da fruta (ou 'sair' para parar): ")
+  if fruta == "sair":
+    break
+  preco = float(input("Digite o preço da fruta: "))
+  frutas.append(fruta)
+  total += preco
+
+print("Você comprou:", frutas)
+print("Preço total:", total)
