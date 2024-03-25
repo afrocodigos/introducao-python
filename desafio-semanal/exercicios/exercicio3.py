@@ -1,4 +1,4 @@
-# Crie um programa que ordene uma lista de frutas em ordem alfabética.
+#Crie um programa que ordene uma lista de frutas em ordem alfabética.
 
 # Dicas que podem ser seguidas ou não: 
 # - Use o método sort() para ordenar a lista em ordem alfabética.
