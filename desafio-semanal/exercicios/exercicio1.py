@@ -1,4 +1,4 @@
-# Escreva um programa que remova todas as duplicatas de uma lista e imprima a lista resultante.
+#Escreva um programa que remova todas as duplicatas de uma lista e imprima a lista resultante.
 
 # Dicas que podem ser seguidas ou não: 
 # Remover duplicatas de uma lista:
