@@ -1,23 +1,38 @@
+
+from menu import show_menu, menu_comprar_passagens
 from passagens import Passagem, PassagensAereasManager
-from apresentacao import menu_compra_passagem, mostra_menu, lista_passagens
 
-
+# Começo do loop principal do programa
 while True:
+    # A cada iteração do loop, eu crio uma nova instância da classe PassagensAereasManager
     passagens_aereas_manager = PassagensAereasManager()
+   
+   # Nesta função, mostro o menu para o usuário
+    show_menu()
 
-    mostra_menu()
-
-    entrada_do_usuario = int(input())
-
+    # Solicito ao usuário que escolha uma opção e guardo essa opção como um inteiro.
+    entrada_do_usuario = int(input(f"Digite a sua opção :"))
+    
+    # Verifico qual opção o usuário escolheu
     if entrada_do_usuario == 1:
-        origem, destino, preço = menu_compra_passagem()
-        passagem = Passagem(origem, destino, preço)
-        # passagem = Passagem(*menu_compra_passagem())
+        origem, destino, preco = menu_comprar_passagens()
+        passagem = Passagem(origem, destino, preco)
         passagens_aereas_manager.adicionar_passagem(passagem)
 
     elif entrada_do_usuario == 2:
-        lista_passagens(passagens_aereas_manager.listar_passagens())
-    # se o usuário escolher sair do programa, usar break para encerrar o programa
+
+        for passagem in passagens_aereas_manager.passagens_compradas:
+            print(passagem)
+       
     else:
-        print("Encerrando o programa, volte sempre!")
+        print("Opção inválida!!!\nPor favor, veja o menu e escolha uma opção válida.")
+        
+    # Se o usuário escolheu a opção 3, imprimo uma mensagem de encerramento e
+    # saio do loop, encerrando o programa
+    if entrada_do_usuario == 3:
+        print()
+        print("Encerrando o programa. Volte sempre!!!")
+        print()
         break
+
+
