@@ -8,5 +8,5 @@
    2. Listar passagens ✅
    3. Sair do programa ✅
 4. Encerramento do programa ✅
-5. Se o usuário colocar uma opção inválida gerar um erro e encerrar o programa
+5. Se o usuário colocar uma opção inválida gerar um erro e encerrar o programa ✅
 
