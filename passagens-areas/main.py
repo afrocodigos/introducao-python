@@ -12,12 +12,11 @@ while True:
     if entrada_do_usuario == 1:
         origem, destino, preço = menu_compra_passagem()
         passagem = Passagem(origem, destino, preço)
-        # passagem = Passagem(*menu_compra_passagem())
         passagens_aereas_manager.adicionar_passagem(passagem)
-
     elif entrada_do_usuario == 2:
         lista_passagens(passagens_aereas_manager.listar_passagens())
-    # se o usuário escolher sair do programa, usar break para encerrar o programa
-    else:
+    elif entrada_do_usuario == 3:
         print("Encerrando o programa, volte sempre!")
         break
+    else:
+        print("Opção inválida. Por favor, escolha uma opção válida.")
