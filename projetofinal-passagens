@@ -1,0 +1,77 @@
+class Passagem:
+    def __init__(self, origem, destino, preço):
+        self.origem = origem
+        self.destino = destino
+        self.preço = preço
+
+    def __repr__(self):
+        return f"{self.origem} -> {self.destino} ({self.preço})"
+
+
+class PassagensAereasManager:
+    def __init__(self):
+        self._passagens_compradas = []
+
+    def adicionar_passagem(self, passagem):
+        self._passagens_compradas.append(passagem)
+
+    def listar_passagens(self):
+        return self._passagens_compradas
+
+    def remover_passagem(self, indice):
+        if 0 <= indice < len(self._passagens_compradas):
+            del self._passagens_compradas[indice]
+        else:
+            print("Índice inválido. Passagem não removida.")
+
+
+def mostra_menu():
+    print("==" * 30)
+    print("Escolha uma das opções abaixo: ")
+    print("1. Comprar passagens")
+    print("2. Listar passagens compradas")
+    print("3. Remover passagem")
+    print("4. Sair do programa")
+    print("==" * 30)
+
+
+def menu_compra_passagem():
+    print("Você escolheu comprar passagens")
+    origem = input("Qual é a origem? ")
+    destino = input("Qual é a destino? ")
+    preço = float(input("Qual é a preço? "))
+    return Passagem(origem, destino, preço)
+
+
+def lista_passagens(passagens_compradas):
+    print("Passagens compradas:")
+    for indice, passagem in enumerate(passagens_compradas):
+        print(f"{indice + 1}) {passagem}")
+
+
+if __name__ == "__main__":
+    passagens_aereas_manager = PassagensAereasManager()
+
+    while True:
+        mostra_menu()
+        escolha = input("Escolha uma opção: ")
+
+        if escolha == "1":
+            passagem = menu_compra_passagem()
+            passagens_aereas_manager.adicionar_passagem(passagem)
+            print("Passagem comprada com sucesso!")
+
+        elif escolha == "2":
+            lista_passagens(passagens_aereas_manager.listar_passagens())
+
+        elif escolha == "3":
+            lista_passagens(passagens_aereas_manager.listar_passagens())
+            indice_para_remover = int(input("Digite o número da passagem que deseja remover: ")) - 1
+            passagens_aereas_manager.remover_passagem(indice_para_remover)
+
+        elif escolha == "4":
+            print("Encerrando o programa, volte sempre!")
+            break
+
+        else:
+            print("Opção inválida. Por favor, escolha uma opção válida.")
