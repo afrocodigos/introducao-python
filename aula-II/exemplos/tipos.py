@@ -1,0 +1,8 @@
+print(type(13))
+print(type(3.14))
+print(type("R merece mais reconhecimento"))
+print(type(2==3))
+print(type(['avelã','morango','ninho']))
+print(type((9,9.8,9.5)))
+print(type({'nome': "Alfa", 'idade': 28}))
+print(type({'lista','tupla','dicionário'}))
