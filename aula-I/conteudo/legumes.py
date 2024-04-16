@@ -1,7 +1,7 @@
 import frutas
 
 print("legumes:")
-print("Chuchu")
 print("Cenoura")
 print("Batata")
+print("Batata doce")
 print("Brócolis")
