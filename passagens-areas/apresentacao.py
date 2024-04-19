@@ -11,13 +11,13 @@ def mostra_menu():
 
 
 def menu_compra_passagem():
-    print("Você escolheu comprar de passagens")
-    origem = input("Qual é a origem? ")
-    destino = input("Qual é a destino? ")
-    preço = float(input("Qual é a preço? "))
+    print("Você escolheu 'Comprar Passagens': ")
+    origem = input("Qual é o seu local de origem? ")
+    destino = input("Qual é o seu local de destino? ")
+    preço = float(input("Qual o preço da passagem? "))
     
     return origem, destino, preço
 
-def lista_passagens(passagens_compradas):
-    for indice, passagem in enumerate(passagens_compradas):
+def lista_passagens(passagens_adquiridas):
+    for indice, passagem in enumerate(passagens_adquiridas):
         print(f"{indice+1}) {passagem}")
